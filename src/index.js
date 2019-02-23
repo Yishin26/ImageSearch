@@ -6,7 +6,11 @@ import ReactDOM from 'react-dom';
 
 // Create a react component
 const App = () => {
-    return <div> Hi there!</div>;
+    return <div> 
+        <h1>Hello</h1>
+        <hr style={{border:'gray solid 2px'}}></hr>
+        
+    </div>;
 
 };
 
