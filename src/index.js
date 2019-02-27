@@ -1,17 +1,22 @@
 // Import the React and ReactDOM Libraries
 import React from "react";
 import ReactDOM from "react-dom";
+/*
 import CommentDetail from "./CommentDetail";
 import ApprovalCard from "./ApprovalCard";
 import Faker from "faker";
-
+*/
 /*function getButtonText(){
     return 'Click on me';
 }*/
 
 // Create a react component
-const App = () => {
+/* const App = () => {
+  
   return (
+    
+  
+   JSX, props, Component 
     <div style={{ margin: "20px" }}>
       <ApprovalCard>
         <h4 >Warning</h4>
@@ -42,8 +47,42 @@ const App = () => {
         />
       </ApprovalCard>
     </div>
+   
   );
-};
+}; */
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { lat: null, errorMsg: "" }; //initialization state:this is the only time we do direct assignment to this state
+
+    window.navigator.geolocation.getCurrentPosition(
+      position => {
+        //we called setstate!!
+        this.setState({ lat: position.coords.latitude });
+        //we did not!!!
+        //this.setState.lat=position.coords.latitude;
+      },
+      err => {
+        this.setState({ errorMsg: err.message });
+      }
+    );
+  }
+  render() {
+    
+     
+      if( this.state.errorMsg && !this.state.lat){
+         return <div>Error:{this.state.errorMsg}
+         </div>
+      }
+      if (!this.state.errorMsg && this.state.lat) {
+        return <div>latitude:{this.state.lat}</div>;
+      }
+      return <div>Loading...</div>;
+        
+
+  }
+}
 
 //Take the react component and show it on the screen
 ReactDOM.render(<App />, document.querySelector("#root"));
