@@ -1,13 +1,13 @@
 {
-  "main.css": "/react-try/static/css/main.5fb987ec.chunk.css",
-  "main.js": "/react-try/static/js/main.9535d105.chunk.js",
-  "main.js.map": "/react-try/static/js/main.9535d105.chunk.js.map",
-  "runtime~main.js": "/react-try/static/js/runtime~main.b85ec096.js",
-  "runtime~main.js.map": "/react-try/static/js/runtime~main.b85ec096.js.map",
-  "static/js/2.cb016095.chunk.js": "/react-try/static/js/2.cb016095.chunk.js",
-  "static/js/2.cb016095.chunk.js.map": "/react-try/static/js/2.cb016095.chunk.js.map",
-  "index.html": "/react-try/index.html",
-  "precache-manifest.9d72e43be716227595cd4b551f11a7bf.js": "/react-try/precache-manifest.9d72e43be716227595cd4b551f11a7bf.js",
-  "service-worker.js": "/react-try/service-worker.js",
-  "static/css/main.5fb987ec.chunk.css.map": "/react-try/static/css/main.5fb987ec.chunk.css.map"
+  "main.css": "/ImageSearch/static/css/main.29f6a5d2.chunk.css",
+  "main.js": "/ImageSearch/static/js/main.a26bd0cc.chunk.js",
+  "main.js.map": "/ImageSearch/static/js/main.a26bd0cc.chunk.js.map",
+  "runtime~main.js": "/ImageSearch/static/js/runtime~main.8e86e34f.js",
+  "runtime~main.js.map": "/ImageSearch/static/js/runtime~main.8e86e34f.js.map",
+  "static/js/2.cb016095.chunk.js": "/ImageSearch/static/js/2.cb016095.chunk.js",
+  "static/js/2.cb016095.chunk.js.map": "/ImageSearch/static/js/2.cb016095.chunk.js.map",
+  "index.html": "/ImageSearch/index.html",
+  "precache-manifest.e7d58b325356278b9298ee9bf0c31274.js": "/ImageSearch/precache-manifest.e7d58b325356278b9298ee9bf0c31274.js",
+  "service-worker.js": "/ImageSearch/service-worker.js",
+  "static/css/main.29f6a5d2.chunk.css.map": "/ImageSearch/static/css/main.29f6a5d2.chunk.css.map"
 }
