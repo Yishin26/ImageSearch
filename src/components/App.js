@@ -17,10 +17,12 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div >
+        <div style={{margin:'20pt'}}>
         <SearchBar onSubmit={this.onSearchSubmit} />
-        <ImageList images={this.state.images}/>
+        <ImageList className="ui container" images={this.state.images} />
         Found:{this.state.images.length} images
+        </div>
       </div>
     );
   }
